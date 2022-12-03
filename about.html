@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "collegestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" >
+<link ref ="stylesheet"href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <meta name = "viewport" content = "with = device-width,intial scale = 1.0">
+    <title>University Website Design</title>
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+             <a href = "index.html"><img src = "images/logo.png"></a>
+             <div class="nav-links" id = "navLinks">
+           <!--- <span class="material-symbols-outlined"onclick="hideMenu()">
+                    close
+            </span>-->
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+                <ul>
+                    <li><a href = "index.html">HOME </a> </li>
+                    <li><a href = "about.html">ABOUT </a> </li>
+                    <li><a href = "courses.html">COURSES </a> </li>
+                    <li><a href = "blog.html">BLOG</a> </li>
+                    <li><a href = "contact.html">CONTACT </a> </li>
+                </ul>
+
+             </div>
+          <!--  <span class="material-symbols-outlined"onclick = "showMenu()">
+                menu
+             </span>-->
+             <i class="fa fa-bars"onclick="showMenu()" aria-hidden="true"></i>
+        
+              
+        </nav>
+     <h1>ABOUT US</h1>
+    </section>
+<!---------------------about u s content------------->
+<section class="about-us">
+    <div class ="row">
+        <div class ="about-col">
+            <h1> WE ARE WORLD BEST UNIVERSITY</h1>
+            <p>Our residential college offers you a safe and secure place to live with modern facilities, all-inclusive meals, networking opportunities and tutorial and wellbeing programs to strengthen your academic outcomes and support your health. Students living at UC describe our community as friendly and welcoming  with students supporting each other and numerous staff on hand to help you settle into life in Melbourne and university. It's these differences that make it easy to forge new friendships and set residential colleges apart from other accommodation options.</p>
+            <a href ="" class = "hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class = "about-col">
+            <img src = "images/about.jpg">
+        </div>
+        
+
+
+    </div>
+</section>
+<!---campus------>
+
+
+
+<!--- FACILITIES  -->
+
+<!---testimolials-->
+
+<section class = "footer">
+    <h4>ABOUT US</h4>
+    <p> is a world-leading centre of learning, teaching and research and the oldest university in the world.</p>
+    <div class = "icons">
+        <a href="#" class="fa fa-facebook"></a>  
+        <a href="#" class="fa fa-linkedin"></a> 
+        <a href="#" class="fa fa-twitter"></a>  
+
+    </div>
+    <p>Made <i class="fa fa-camera fa-stack-1x"></i>by JAI YADAV</p> 
+</section>
+
+
+
+
+
+
+    <!-----javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
